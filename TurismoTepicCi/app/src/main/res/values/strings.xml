@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">Conoce Tepic</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="project_description">El sector turístico de Nayarit es una de las áreas estratégicas del estado y al igual que en otras partes del mundo, puede y debe beneficiarse del desarrollo de aplicaciones basadas en TIC para mantener y mejorar su competitividad a nivel nacional e internacional. Dentro de las actividades del laboratorio “Innovatic-lab” de CICESE-UT3 se encuentra el desarrollo de aplicaciones tecnológicas para los dos sectores prioritarios del estado: la agroindustria y el turismo. Dentro de las aplicaciones para el sector turístico, está el desarrollo de una aplicación móvil que implemente funcionalidades de realidad aumentada para mejorar la experiencia de los visitantes al primer cuadro del centro histórico de Tepic.</string>
+
+    <string name="title_encuesta">Encuesta</string>
+    <string name="q1">¿Cómo calificarías la limpieza del centro histórico de Tepic?</string>
+    <string name="q2">¿Cómo evaluarías la atención del personal en los puntos de interés?</string>
+    <string name="q3">¿Cómo calificarías la calidad de los servicios que recibiste?</string>
+    <string name="q4">¿Cómo evaluarías en general tu visita o estancia en la ciudad?</string>
+    <string name="title_opinion">Opinión</string>
+    <string name="opinion">Puedes dejarnos tu opinión, comentario o sugerencia:</string>
+    <string name="title_bueno">Bueno</string>
+
+    <string name="ayuda">Para un correcto funcionamiento de la Realidad Aumentada, y el trazo de rutas es necesario tener activado su GPS en todo momento. \n En versiones de android 6.0 o posteriores, es necesario seguir la siguiente secuencia para otorgar permisos a la aplicacion y funcione correctamente \n Configuracíon > Aplicaciones > ConoceTepic > Permisos y otorgar todos los permisos solicitados.</string>
+
+    <string name="title_malo">Malo</string>
+    <string name="title_regular">Regular</string>
+    <string name="title_excelente">Excelente</string>
+    <string name="btn_regresar">Regresar</string>
+    <string name="btn_cancelar">Cancelar</string>
+    <string name="btn_aceptar">Aceptar</string>
+
+    <string name="title_pois">Puntos de interés</string>
+    <string name="title_rutap">Ruta a punto de interés</string>
+
+    <string name="title_login">Iniciar sesión</string>
+    <string name="title_nombre">Nombre</string>
+    <string name="title_usuario">Usuario</string>
+    <string name="title_pass">Contraseña</string>
+    <string name="title_recordar">Recordarme</string>
+    <string name="btn_registrarse">Registrarse ahora</string>
+    <string name="title_registro">Registro</string>
+    <string name="title_edad">Edad</string>
+    <string name="title_sexo">Sexo</string>
+    <string name="title_hombre">Hombre</string>
+    <string name="title_mujer">Mujer</string>
+    <string name="title_motivo">Motivo de viaje</string>
+    <string name="title_origen">Estado de origen</string>
+    <string name="title_otro_origen">Nacionalidad</string>
+    <string name="title_acompañantes">¿Con quien(es) nos visita?</string>
+    <string name="btn_guardar">Guardar</string>
+    <string name="title_splash">Bienvenido</string>
+    <string name="title_categoria">Categoría</string>
+
+    <string name="menu_ar">PASEO VIRTUAL</string>
+    <string name="menu_poi">PUNTOS DE INTERÉS</string>
+    <string name="menu_enc">ENCUESTA</string>
+
+    <string name="title_activity_splash_screen2">SplashScreen2</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="tv_museos">Museos</string>
+    <string name="tv_monumentos">Monumentos</string>
+    <string name="tv_hoteles">Hoteles</string>
+    <string name="tv_bancos">Bancos</string>
+    <string name="tv_restaurantes">Restaurantes</string>
+    <string name="tv_farmacias">Farmacias</string>
+    <string name="tv_transporte">Transporte</string>
+    <string name="tv_plazas">Plazas comerciales</string>
+    <string name="tv_tiendas">Tiendas</string>
+    <string name="tv_parques">Parques</string>
+    <string name="tv_otros">Otros</string>
+
+
+    <string name="tpreg1">Pregunta 1</string>
+    <string name="tpreg2">Pregunta 2</string>
+    <string name="tpreg3">Pregunta 3</string>
+    <string name="tpreg4">Pregunta 4</string>
+    <string name="tpreg5">Pregunta 5</string>
+
+    <string name="pregp">¿Cómo consideras que fue la limpieza del centro histórico en tu estadia por Tepic?</string>
+    <string name="title_activity_path_poi">Map</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="label_duration">0 min</string>
+    <string name="label_distance">0 km</string>
+    <string name="title_ayuda">Ayuda</string>
+    <string name="title_sugerencia">Sugerencias</string>
+    <string name="sugerencia">Tendras algun comentario o sugerencia que quieras proporcionarnos</string>
+
+
+</resources>

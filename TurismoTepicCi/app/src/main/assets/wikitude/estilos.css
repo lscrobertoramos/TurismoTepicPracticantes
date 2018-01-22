@@ -1,0 +1,35 @@
+#panel-poidetaile{
+            background-color:#F0F0F0;
+            overflow: auto;
+            height:60%;
+            position:absolute;
+            top:17%;
+            left:17%;
+            width:60%;
+            margin: auto;
+            opacity:0.8; 
+            display:none;
+            -webkit-border-radius: 8px;
+            -moz-border-radius: 8px;
+            border-radius: 8px;
+      }
+
+
+#poi-detail-title{
+      text-align:center; 
+      font-size:40;
+      color:#575656; 
+      margin:0px; 
+      padding:0px; 
+}
+#poi-detail-description{
+      text-align: justify;
+}
+
+hr{
+      margin: 0px; 
+      border-top: 1px solid #F39200;
+}
+/* Div para crear un scroll*/
+#poi-scroll{
+}

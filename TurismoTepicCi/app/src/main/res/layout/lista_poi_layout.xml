@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:theme="@style/AppTheme.NoActionBar"
+    android:orientation="vertical"
+    android:background="@mipmap/fpoi"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="@string/title_pois"
+        android:layout_width="match_parent"
+        android:gravity="bottom|center_horizontal"
+        android:paddingBottom="10dp"
+        android:textSize="16dp"
+        android:layout_height="50dp"
+        android:textColor="#FFF"
+        android:id="@+id/tvTitleLugares" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="60dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/linearLayout1">
+
+        <RelativeLayout
+            android:layout_width="120dp"
+            android:layout_height="75dp">
+            >
+
+            <ImageButton
+                android:id="@+id/museo"
+                android:layout_width="53dp"
+                android:layout_height="53dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/museos"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:textColor="#000"
+                android:layout_below="@id/museo"
+                android:text="@string/tv_museos"
+                />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="120dp"
+            android:layout_height="75dp">
+
+            <ImageButton
+                android:id="@+id/monumentos"
+                android:layout_centerHorizontal="true"
+                android:layout_width="53dp"
+                android:layout_height="53dp"
+                android:background="@drawable/monumentos"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:textColor="#000"
+                android:layout_below="@id/monumentos"
+                android:text="@string/tv_monumentos"
+                />
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linearLayout1"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/linearLayout2">
+
+        <RelativeLayout
+            android:layout_width="120dp"
+            android:layout_height="75dp">
+            >
+            <ImageButton
+                android:id="@+id/hoteles"
+                android:layout_width="53dp"
+                android:layout_height="53dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/hoteles"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:textColor="#000"
+                android:layout_below="@id/hoteles"
+                android:text="@string/tv_hoteles"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="120dp"
+            android:layout_height="75dp">
+            <ImageButton
+                android:id="@+id/bancos"
+                android:layout_centerHorizontal="true"
+                android:layout_width="53dp"
+                android:layout_height="53dp"
+                android:background="@drawable/bancos"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:textColor="#000"
+                android:layout_below="@id/bancos"
+                android:text="@string/tv_bancos"
+                />
+        </RelativeLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linearLayout2"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/linearLayout3">
+
+        <RelativeLayout
+            android:layout_width="120dp"
+            android:layout_height="75dp">
+            >
+            <ImageButton
+                android:id="@+id/restaurantes"
+                android:layout_width="53dp"
+                android:layout_height="53dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/restaurantes"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:textColor="#000"
+                android:layout_below="@id/restaurantes"
+                android:text="@string/tv_restaurantes"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="120dp"
+            android:layout_height="75dp">
+            <ImageButton
+                android:id="@+id/farmacias"
+                android:layout_centerHorizontal="true"
+                android:layout_width="53dp"
+                android:layout_height="53dp"
+                android:background="@drawable/farmacias"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:textColor="#000"
+                android:layout_below="@id/farmacias"
+                android:text="@string/tv_farmacias"
+                />
+        </RelativeLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linearLayout3"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/linearLayout4">
+
+        <RelativeLayout
+            android:layout_width="120dp"
+            android:layout_height="85dp">
+            >
+            <ImageButton
+                android:id="@+id/transporte"
+                android:layout_width="53dp"
+                android:layout_height="53dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/transporte"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:textColor="#000"
+                android:layout_below="@id/transporte"
+                android:text="@string/tv_transporte"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="120dp"
+            android:layout_height="85dp">
+            <ImageButton
+                android:id="@+id/plazas"
+                android:layout_centerHorizontal="true"
+                android:layout_width="53dp"
+                android:layout_height="53dp"
+                android:background="@drawable/mall"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:gravity="center_horizontal"
+                android:textColor="#000"
+                android:layout_below="@id/plazas"
+                android:text="@string/tv_plazas"
+                />
+        </RelativeLayout>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linearLayout4"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/linearLayout5">
+
+        <RelativeLayout
+            android:layout_width="120dp"
+            android:layout_height="85dp">
+            >
+            <ImageButton
+                android:id="@+id/otros"
+                android:layout_width="53dp"
+                android:layout_height="53dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/otros"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:textColor="#000"
+                android:layout_below="@id/otros"
+                android:text="@string/tv_otros"
+                />
+        </RelativeLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

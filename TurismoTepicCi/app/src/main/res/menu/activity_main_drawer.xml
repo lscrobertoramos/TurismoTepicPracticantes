@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_realidad_aumentada"
+            android:icon="@mipmap/camara"
+            android:title="@string/menu_ar" />
+        <item
+            android:id="@+id/nav_ruta"
+            android:icon="@mipmap/poi"
+            android:title="@string/menu_poi" />
+        <item
+            android:id="@+id/nav_encuesta"
+            android:icon="@mipmap/enc"
+            android:title="@string/menu_enc" />
+
+        <item
+            android:id="@+id/nav_sugerencias"
+            android:icon="@mipmap/ic_assignment_black"
+            android:title="SUGERENCIAS" />
+        <item
+            android:id="@+id/nav_ayuda"
+            android:icon="@mipmap/ic_assignment_black"
+            android:title="ACERCA DE" />
+    </group>
+    <item
+        android:id="@+id/nav_logout"
+        android:icon="@mipmap/salir"
+        android:title="SALIR" />
+
+
+</menu>
