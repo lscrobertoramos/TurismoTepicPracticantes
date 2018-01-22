@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/TurismoTepicCi.iml" filepath="$PROJECT_DIR$/TurismoTepicCi.iml" />
+      <module fileurl="file://C:\Users\PREVENCION-1\Documents\GitHub\TurismoTepicPracticantes\TurismoTepicCi\TurismoTepicCi.iml" filepath="C:\Users\PREVENCION-1\Documents\GitHub\TurismoTepicPracticantes\TurismoTepicCi\TurismoTepicCi.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\PREVENCION-1\Documents\GitHub\TurismoTepicPracticantes\TurismoTepicCi\app\app.iml" filepath="C:\Users\PREVENCION-1\Documents\GitHub\TurismoTepicPracticantes\TurismoTepicCi\app\app.iml" />
     </modules>
   </component>
 </project>

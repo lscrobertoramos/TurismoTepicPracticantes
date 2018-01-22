@@ -111,7 +111,7 @@ public class MapsActivity extends Fragment implements LocationListener, OnMapRea
         SupportMapFragment mapFragment = (SupportMapFragment) getChildFragmentManager().findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
 
-        System.out.print("");
+        System.out.print("Cambio 2");
 
 
         return root;
